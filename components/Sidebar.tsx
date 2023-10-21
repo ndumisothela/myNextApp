@@ -11,9 +11,9 @@ function Sidebar() {
   return (
     <div>
       <Image className='w-32 h-32 rounded-full mx-auto ' src={pro} alt='propic'/>
-      <h1 className='my-4 text-3x1 font-medium tracking-wider font-kaushan'><span>Ndumiso</span> Thela</h1>
-      <p className='px-2  my-3 bg-gray-200 rounded-full'>Web Developer</p>
-      <p className='px-2  my-3 bg-gray-200 rounded-full flex item-center justify-center'><GiTie className='w-6 h-6'/>Download Resume</p>
+      <h1 className='my-4 text-2xl font-medium tracking-wider font-kaushan'><span>NDUMISO</span> THELA</h1>
+      <p className='px-2 my-3 bg-gray-200 rounded-full'>Web Developer</p>
+      <p className='px-2 my-3 bg-gray-200 rounded-full flex item-center justify-center'><GiTie className='w-6 h-6'/>Download Resume</p>
       <div className='flex justify-around w-9/12 md:w-full my-5 text-green-500 mx-auto'>
         <a href=''><AiFillLinkedin className='w-8 h-8 cursor-pointer'/></a>
         <a href=''><AiFillGithub className='w-8 h-8 cursor-pointer'/></a>
