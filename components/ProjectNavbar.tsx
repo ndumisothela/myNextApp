@@ -31,8 +31,8 @@ const ProjectNavbar: FunctionComponent<{
       {/* Rendering individual category filter items */}
       <NavItem value="all" {...props} /> {/* 'All' category */}
       <NavItem value="react" {...props} /> {/* 'React' category */}
-      <NavItem value="mongo" {...props} /> {/* 'Mongo' category */}
-      <NavItem value="django" {...props} /> {/* 'Django' category */}
+      <NavItem value="mongoDB" {...props} /> {/* 'Mongo' category */}
+      {/*<NavItem value="django" {...props} /> {/* 'Django' category */}
       <NavItem value="node" {...props} /> {/* 'Node' category */}
     </div>
   );
